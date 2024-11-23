@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'colin';
+  src: url('./fonts/colin.otf') format("truetype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +22,10 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.logo {
+  font-family: 'colin';
+  @apply font-bold text-3xl
 }
