@@ -1,7 +1,8 @@
 import { ThemeProvider } from '@/components/ui/theme-provider';
 import Navbar from './components/Navbar';
 import MoviesProvider from './context/moviesContext';
-import './globals.css';
+import './styles/globals.css';
+import './styles/embla.css';
 import { NextUIProvider } from '@nextui-org/react'
 
 

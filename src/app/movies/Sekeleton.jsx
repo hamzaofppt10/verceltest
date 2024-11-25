@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Skeleton } from "@nextui-org/react";
 
-const Carousel = () => {
+const Sekeleton = () => {
     return (
         <>
             <Skeleton className="w-3/5 m-auto rounded-lg mt-8 mb-4">
@@ -31,4 +31,4 @@ const Carousel = () => {
     )
 }
 
-export default Carousel
+export default Skeleton

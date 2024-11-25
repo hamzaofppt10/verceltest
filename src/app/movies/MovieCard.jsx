@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import Carousel from './Carousel';
+import Carousel from './Sekeleton';
 
 
 const MovieCard = ({movies}) => {

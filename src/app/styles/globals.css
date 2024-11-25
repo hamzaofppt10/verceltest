@@ -4,15 +4,15 @@
 
 @font-face {
   font-family: 'colin';
-  src: url('./fonts/colin.otf') format("truetype");
+  src: url('../fonts/colin.otf') format("truetype");
 }
 @font-face {
   font-family: 'poppins-bold';
-  src: url('./fonts/Poppins-ExtraBold.ttf') format("truetype");
+  src: url('../fonts/Poppins-ExtraBold.ttf') format("truetype");
 }
 @font-face {
   font-family: 'poppins-regular';
-  src: url('./fonts/Poppins-Medium.ttf') format("truetype");
+  src: url('../fonts/Poppins-Medium.ttf') format("truetype");
 }
 
 .logo {
