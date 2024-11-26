@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import React from 'react'
+import Carousel from './Sekeleton';
 
 
 const MovieCard = ({movies}) => {
     const image_url = "https://image.tmdb.org/t/p/original";
+    if (!movies.length ) return <Carousel />;
   return (
     <div className="container mx-auto px-4 py-8 ">
       <h1 className="text-3xl font-bold mb-8 text-center">Top Rated Movies</h1>

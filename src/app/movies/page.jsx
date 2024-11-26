@@ -2,21 +2,13 @@
 import React, { useEffect, useState } from 'react'
 import { useMovies } from '../context/moviesContext';
 import MovieCard from './MovieCard';
+import Carousel from './Sekeleton';
 
 const Page = () => {
-    const { getTopRatedMovies } = useMovies();
-    const [movies, setMovies] = useState([]);
-    useEffect(() => {
-
-        const fetchMovies = async () => {
-            const movies = await getTopRatedMovies();
-           setMovies(movies);
-        }
-        fetchMovies();
-    })
+    const { trendingMovies } = useMovies();
   return (
-    <div>
-       <MovieCard movies={movies} />
+    <div className=''>
+       <MovieCard movies={trendingMovies} />
     </div>
   )
 }
